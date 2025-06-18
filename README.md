@@ -22,10 +22,10 @@ It includes simulations of spintronic reservoirs, Volterra-series approximations
 ### A. Spintronic Reservoir Simulation
 
 1. **Generate Damping Distribution**  
-   Run `Damping_generation.m` in MATLAB to generate the damping distribution based on control parameters. The output will be automatically saved as a `.txt` file.
+   Run `Damping_generation.m` in MATLAB to generate the damping distribution based on control parameters. The output will be automatically saved as a `Damping_distribution.txt` file.
 
 2. **Generate Input Magnetic Field**  
-   Run `Input_field_generation.m` in MATLAB to generate the input magnetic field. This script will output both a `input_data.mat` file and a `.txt` file containing the generated data.
+   Run `Input_field_generation.m` in MATLAB to generate the input magnetic field. This script will output both a `input_data.mat` file and a `input_magnetic_field.txt` file containing the generated data.
 
 3. **Run Mumax3 Simulations**  
    Modify and run the three Mumax3 code files (`Mumax3Code1`, `Mumax3Code2`, `Mumax3Code3`) separately using the Mumax3 simulation tool.
@@ -55,7 +55,7 @@ It includes simulations of spintronic reservoirs, Volterra-series approximations
 
 ### D. NARMA Task Benchmarks
 
-- Run NARMA2.m and NARMA10.m in MATLAB to perform the NARMA2 and NARMA10 tasks respectively. Both scripts load `input_data.mat` and `system_response.mat` for computation.
+- Run `NARMA2.m` and `NARMA10.m` in MATLAB to perform the NARMA2 and NARMA10 tasks respectively. Both scripts load `input_data.mat` and `system_response.mat` for computation.
 
 ---
 
@@ -80,7 +80,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For questions or issues, please open an issue in this repository or contact the author directly.
+For questions or issues, please open an issue in this repository or contact the authors directly.
 
 ---
 
